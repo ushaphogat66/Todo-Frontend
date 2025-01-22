@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+  font-family: "Outfit", serif;
+  transition: all 0.3s;
+}
+
+.custom-checkbox {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  position: relative;
+  background-color: white;
+  padding:8px;
+}
+
+.custom-checkbox:checked {
+  background-color: #38a169; /* Change this to your desired color */
+  border-color: #38a169;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -3 24 24" fill="white" stroke="white" stroke-width="3"><path d="M20.285 2.285a1 1 0 0 0-1.41 0L9 12.157 5.129 8.285a1 1 0 0 0-1.414 1.414l4.5 4.5a1 1 0 0 0 1.414 0l10.5-10.5a1 1 0 0 0 0-1.414"/></svg>');
+  background-size: 100%;
+  background-position: center 17%; /* Fine-tuned alignment */
+  background-repeat: no-repeat;
+}
+
